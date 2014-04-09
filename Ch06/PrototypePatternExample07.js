@@ -2,6 +2,7 @@
         }
         
         Person.prototype = {
+            //constructor: Person, // 但修改了原生的constructor的[[enumerable]]
             name : "Nicholas",
             age : 29,
             job: "Software Engineer",
